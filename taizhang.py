@@ -80,5 +80,4 @@ for x in range(len(l3)):
         for x2 in range(len(l3[x][x1])):
             if l3[x][x1][x2][1]  not in zongke[x]:
                 zongadd[x].append(l3[x][x1][x2])
-print(zongadd)
-# xieru(zongpath,zongtxl,zongadd)
+xieru(zongpath,zongtxl,zongadd)
